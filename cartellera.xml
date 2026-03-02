@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cartellera xmlns="http:" data="2026-02-23" xml:lang="ca">
+  <pelicules>
+    <pelicula id="p1">
+      <titol idioma="ca">Duna: Part Dos</titol>
+      <titol idioma="es">Dune: Parte Dos</titol>
+      <titol idioma="vo">Dune: Part Two</titol>
+      <edatclassificacio>m18</edatclassificacio>
+    </pelicula>
+    <pelicula id="p2">
+      <titol idioma="ca">Intensament 2</titol>
+      <titol idioma="es">Intensamente 2</titol>
+      <titol idioma="vo">Inside Out 2</titol>
+      <edatclassificacio>tots</edatclassificacio>
+    </pelicula>
+    <pelicula id="p3">
+      <titol idioma="ca">El laberint del fauno</titol>
+      <titol idioma="es">El laberinto del fauno</titol>
+      <titol idioma="vo">The Labrynth of Faun</titol>
+      <edatclassificacio>m12</edatclassificacio>
+    </pelicula>
+  </pelicules>
+
+  <sales>
+    <sala id="s1">
+      <nom>Sala 1</nom>
+      <entradas>
+        <entrada idioma="ca" numerada="true" hora="16:00" idPelicula="p1"/>
+        <entrada idioma="es" numerada="false" hora="19:00" idPelicula="p2"/>
+      </entradas>
+    </sala>
+    <sala id="s2">
+      <nom>Sala 2</nom>
+      <entradas>
+        <entrada idioma="es" numerada="true" hora="17:30" idPelicula="p3"/>
+        <entrada idioma="vo" numerada="true" hora="20:30" idPelicula="p1"/>
+      </entradas>
+    </sala>
+  </sales>
+</cartellera>
