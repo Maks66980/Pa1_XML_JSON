@@ -1,0 +1,61 @@
+{
+  "Cartellera": {
+    "data": "2026-02-23",
+    "xml:lang": "ca",
+    "peliqules": [
+      {
+        "id": "p1",
+        "titols":[
+          {"idioma": "ca", "titol": "Duna: Part Dos"},
+          {"idioma": "es", "titol": "Dune: Parte Dos"},
+          {"idioma": "vo", "titol": "Dune: Part Two"}
+      ],
+        "edatclassificacio": "m18"
+      },
+      {
+        "id": "p2",
+        "titols": [
+          {"idioma": "ca", "titol": "Intensament 2"},
+          {"idioma": "es", "titol": "Intensamente 2"},
+          {"idioma": "vo", "titol": "Inside Out 2"}
+        ],
+        "edatclassificacio": "tots"
+      },
+      {
+        "id": "p3",
+        "titols": [
+          {"idioma": "ca", "titol":"El laberint del fauno"},
+          {"idioma": "es", "titol": "El laberinto del fauno"},
+          {"idioma": "vo", "titol": "The Labyrinth of the Faun"}
+        ],
+        "edatclassificacio": "m12"
+      }
+    ],
+    "sales": [
+      {
+        "id": "s1",
+        "nom": "Sala 1",
+        "entradas": [
+          {"idioma": "ca", "numerada": true, "hora": "16:00", "idpelicula": "p1"},
+          {"idioma": "ca", "numerada": false, "hora": "19:00", "idpelicula": "p2"}
+        ]
+      },
+      {
+        "id": "s2",
+        "nom": "Sala 2",
+        "entradas": [
+          {"idioma": "ca", "numerada": true, "hora": "17:30", "idpelicula": "p3"},
+          {"idioma": "vo", "numerada": true, "hora": "20:30", "idpelicula": "p1"}
+        ]
+      }
+    ]
+  }
+}
+
+    
+  
+
+
+
+
+
